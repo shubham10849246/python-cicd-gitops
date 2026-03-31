@@ -15,7 +15,7 @@ spec:
         app: python-cicd
     spec:
       nodeSelector:
-        eksctl.io/nodegroup-name: ng-registry-ca
+        alpha.eksctl.io/nodegroup-name: ng-registry-ca
       imagePullSecrets:
       - name: nexus-regcred
       containers:
