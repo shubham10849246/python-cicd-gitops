@@ -18,6 +18,6 @@ spec:
       - name: nexus-regcred
       containers:
       - name: python-cicd
-        image: registry.nexus.internal/python-cicd-demo:latest
+        image: registry.nexus.internal/python-cicd-demo:14-acde123
         ports:
         - containerPort: 8080
