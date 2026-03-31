@@ -18,6 +18,6 @@ spec:
       - name: nexus-regcred
       containers:
       - name: python-cicd
-        image: 43.205.125.96:8082/python-cicd-demo:latest
+        image: nexus.petclinic.local/petclinic:latest
         ports:
         - containerPort: 8080
