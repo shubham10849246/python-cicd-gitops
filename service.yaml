@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: python-cicd-service
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: python-cicd
   ports:

@@ -14,12 +14,8 @@ spec:
       labels:
         app: python-cicd
     spec:
-      nodeSelector:
-        alpha.eksctl.io/nodegroup-name: ng-registry-ca
-      imagePullSecrets:
-      - name: nexus-regcred
       containers:
       - name: python-cicd
-        image: registry.nexus.internal/python-cicd-demo:17-5b04bbf
+        image: 713332525966.dkr.ecr.ap-south-1.amazonaws.com/python-cicd-demo:<TAG>
         ports:
         - containerPort: 8080
