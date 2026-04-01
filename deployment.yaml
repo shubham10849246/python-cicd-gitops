@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-cicd
-        image: 713332525966.dkr.ecr.ap-south-1.amazonaws.com/python-cicd-demo:21-807fb2f
+        image: 713332525966.dkr.ecr.ap-south-1.amazonaws.com/python-cicd-demo:23-c1fe44a
         ports:
         - containerPort: 8080
